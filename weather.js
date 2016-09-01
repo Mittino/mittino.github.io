@@ -1,5 +1,5 @@
 jQuery(document).ready(function($) {
-  var API_URL = 'http://api.wunderground.com/api/7db0776e0a64815c';
+  var API_URL = '//api.wunderground.com/api/7db0776e0a64815c';
 
   // TODO: Remove these
   // getConditions('80302');
