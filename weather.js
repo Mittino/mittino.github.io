@@ -30,6 +30,7 @@ jQuery(document).ready(function($) {
     $.ajax({
       url : url,
       type: 'GET',
+      dataType : "jsonp",
       success : function(response) {
         var location = response.current_observation.display_location.full;
         var temp_f = response.current_observation.temp_f;
@@ -63,6 +64,7 @@ jQuery(document).ready(function($) {
     $.ajax({
       url : url,
       type: 'GET',
+      dataType : "jsonp",
       success : function(response) {
         $(".wrapper").show();
         console.log(response);
