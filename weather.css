@@ -1,0 +1,167 @@
+body {
+  background: transparent url('background.jpg') center center;
+  background-size: cover;
+  margin-bottom: 50px;
+}
+
+h1{
+  text-align: center;
+  font-size: 60px;
+  font-family: 'Oswald', sans-serif;
+  color: #EBF4FA;
+}
+h4{
+  text-align: center;
+  font-size: 16px;
+  font-family: 'Oswald', sans-serif;
+  color: #c0c0c0;
+}
+
+.form {
+  margin: 40px 0;
+}
+.small-heading{
+  font-family: 'Oswald';
+  font-size: 25px;
+  font-weight: bold;
+  text-align:center;
+  color: #fff;
+}
+
+.forecast-numbers{
+  font-family: 'Oswald';
+  font-size: 35px;
+  font-weight: bold;
+  text-align:center;
+  font-style: italic;
+  color: #EBF4FA;
+}
+
+.low{
+  font-size: 20px
+}
+
+.heading{
+  font-family: 'Oswald';
+  font-size: 45px;
+  font-style: underline;
+  font-weight: bold;
+  text-align:center;
+}
+
+#conditions {
+  position: absolute;
+  left: 20px;
+  top: 10px;
+  width: 175px;
+}
+
+#conditions .weather{
+  font-family: 'Oswald';
+  font-size: 15px;
+  color: #206BA4;
+}
+
+.location{
+  font-family: 'Oswald';
+  color: #a0a0a0;
+  font-size: 25px;
+}
+
+.current-temp {
+  font-size: 30px;
+  font-weight: bold;
+  color: #a0a0a0;
+  margin-bottom: 15px;
+}
+
+.current-temp span {
+  font-family:'Oswald', sans-serif;
+  color: #f98f02;
+  font-size: 70px;
+  font-weight: bold;
+}
+
+.paragraph{
+  color: black;
+  size: 15px;
+  text-align: center;
+}
+
+.box-numbers{
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  color: #EBF4FA;
+}
+
+.text{
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+}
+
+.wrapper{
+  padding: 20px;
+}
+
+.main-row > div {
+  background-color: #fff;
+  padding-top: 60px;
+  text-align: center;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+  position: relative;
+}
+
+.forecast-row {
+  background-color: #206BA4;
+  margin-top: 60px;
+}
+
+.forecast-row .forecast {
+  font-family:'Roboto', sans-serif;
+  color: #F1EFE2;
+  font-size: 18px;
+  text-align: center;
+  padding: 30px 0;
+}
+
+.forecast-row .conditions {
+  margin-bottom: 15px;
+}
+
+.forecast-row .weekday {
+  margin-top: 5px;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+.forecast-row .temps {
+  margin-top: 5px;
+  font-weight: bold;
+}
+
+.forecast{
+  vertical-align: bottom;
+}
+
+.small-conditions{
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  font-style: italic;
+  color: #EBF4FA;
+}
+
+.attribution {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.attribution img {
+  width: 75px;
+}
+
+.attribution div {
+  size: 8px;
+  color: #fff;
+}

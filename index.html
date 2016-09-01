@@ -1,0 +1,68 @@
+<html>
+
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="icons/wu-icons-style.css">
+  <link rel="stylesheet" type="text/css" href="weather.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+  <title>Weather Funder-Ground</title>
+  <style>
+
+  </style>
+</head>
+
+<body>
+  <h1> Weather Funner-Ground </h1>
+  <h4> Thank you Weather Underground for the super awesome Weather Info!</h4>
+
+  <form id="location-form">
+    <div class="form row">
+      <div class="col-sm-4 col-sm-offset-4">
+        <div class="input-group">
+          <input type="text" class="form-control" id= "location-input" placeholder="Zip Code or Station ID">
+          <span class="input-group-btn">
+            <button class="btn btn-default" type="submit">Go!</button>
+          </span>
+        </div>
+      </div>
+    </div>
+  </form>
+
+  <div class="wrapper" style="display:none;">
+    <div class="row main-row">
+      <div class="col-xs-12 col-sm-8 col-sm-offset-2">
+        <div class="current-temp" id ="current-temp"><span></span>F</div>
+        <div class="location" id="location"></div>
+        <div class="conditions" id="conditions">
+          <div class="icon"></div>
+          <div class="weather"></div>
+        </div>
+
+
+        <div class="forecast-row row">
+          <div id="forecast-0" class="col-xs-12 col-sm-3 forecast"></div>
+          <div id="forecast-1" class="col-xs-12 col-sm-3 forecast"></div>
+          <div id="forecast-2" class="col-xs-12 col-sm-3 forecast"></div>
+          <div id="forecast-3" class="col-xs-12 col-sm-3 forecast"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="attribution">
+    <a href="https://www.wunderground.com/" target="_blank">
+      <img src="wundergroundphoto1.jpg">
+    </a>
+    <div class="small-italic">"Powered by Weather Underground"</div>
+  </div>
+
+  <!-- <script src="http://api.wunderground.com/api/7db0776e0a64815c/conditions/q/CA/San_Francisco.json"></script> -->
+  <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+  <script>console.log(jQuery)</script>
+  <script src="weather.js"></script>
+</body>
+
+<footer> </footer>
+</html>

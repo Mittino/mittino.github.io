@@ -1,0 +1,15 @@
+Weather App Steps:
+Make 3 Boxes for weather data
+  1. Current temp
+  2. Wind
+  3. Humidity
+Create a colored box for each section
+Ceate space between each box
+
+Create an input box to input the zip code
+Capture the input to send to Weather Underground
+Return results from WU
+Create outputs in each of the boxes
+
+Format the page.. move the logo somewhere?
+add space around the page - perhaps a nice light blue border
