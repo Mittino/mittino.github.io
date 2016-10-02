@@ -1,0 +1,83 @@
+.nav-list{
+  background-color: rgb(70,97,144);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: block;
+  text-align: center;
+  padding: 25px;
+  z-index:1;
+}
+#nav-item{
+  color:white;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.wrapper{
+  padding-top: 95px;
+}
+
+h2 {
+  text-align: left;
+  color: black;
+  font-family: 'Pavanam', sans-serif;
+  font-weight: bold;
+  font-size: 85px;
+  padding-left: 35px;
+}
+
+h3{
+  text-align: left;
+  color: gray;
+  font-family: 'Pavanam', sans-serif;
+  font-size: 30px;
+  padding-left: 30px;
+  padding-right:40px;
+}
+
+.text {
+  font-family: 'Pavanam', sans-serif;
+  font-size: 20px;
+  padding-left: 30px;
+  padding-right: 40px;
+  padding-top: 15px;
+  padding-bottom:15px;
+}
+
+#list-heading{
+  font-weight: bold;
+  font-size: 30px;
+  color: gray;
+}
+
+#list-item{
+  margin-left: 35px;
+}
+.image{
+  width: 500px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-style:solid;
+  border-color:white;
+  border-width: 10px;
+  box-shadow: 2px 2px 21px -4px black;
+  margin: 25px auto;
+}
+#pic1{
+  transform: rotate(-3deg);
+}
+#pic2{
+  transform: rotate(3deg);
+}
+#pic3{
+  transform: rotate(2deg);
+}
+.comment{
+  font-style: italic;
+  text-align: center;
+}

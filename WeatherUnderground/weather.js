@@ -2,8 +2,8 @@ jQuery(document).ready(function($) {
   var API_URL = '//api.wunderground.com/api/7db0776e0a64815c';
 
   // TODO: Remove these
-  // getConditions('80302');
-  // getForecast('80302');
+//getConditions('80302');
+//getForecast('80302');
 
 // TODO: Use location API
 
